@@ -1,0 +1,34 @@
+2015-12-11T21:34:17.515Z - error: Error executing command gsprint.exe -dBATCH -printer 'Dell C1760nw Color Printer' -ghostscript C:\miracaPrint\pdfs\test - Copy - Copy.pdf with stderr:Couldn't open Windows GDI printer driver
+Requested printer: "'Dell"
+Available printers:
+  "Fax"
+  "Dell C1760nw Color Printer"
+  "Adobe PDF"
+
+2015-12-11T21:34:17.515Z - error: C:\miracaPrint\pdfs\test - Copy - Copy.pdf did not print.
+2015-12-11T21:34:17.515Z - error: Error executing command gsprint.exe -dBATCH -printer 'Dell C1760nw Color Printer' -ghostscript C:\miracaPrint\pdfs\test - Copy - Copy.pdf with error:Error: Command failed: C:\Windows\system32\cmd.exe /s /c "gsprint.exe -dBATCH -printer 'Dell C1760nw Color Printer' -ghostscript C:\miracaPrint\pdfs\test - Copy - Copy.pdf"
+Couldn't open Windows GDI printer driver
+Requested printer: "'Dell"
+Available printers:
+  "Fax"
+  "Dell C1760nw Color Printer"
+  "Adobe PDF"
+
+2015-12-11T21:34:17.515Z - error: C:\miracaPrint\pdfs\test - Copy - Copy.pdf did not print.
+2015-12-11T21:35:07.363Z - error: Error executing command gsprint.exe -dBATCH -printer 'Dell C1760nw Color Printer' -ghostscript C:\miracaPrint\pdfs\test - Copy.pdf with stderr:Couldn't open Windows GDI printer driver
+Requested printer: "'Dell"
+Available printers:
+  "Fax"
+  "Dell C1760nw Color Printer"
+  "Adobe PDF"
+
+2015-12-11T21:35:07.363Z - error: C:\miracaPrint\pdfs\test - Copy.pdf did not print.
+2015-12-11T21:35:07.378Z - error: Error executing command gsprint.exe -dBATCH -printer 'Dell C1760nw Color Printer' -ghostscript C:\miracaPrint\pdfs\test - Copy.pdf with error:Error: Command failed: C:\Windows\system32\cmd.exe /s /c "gsprint.exe -dBATCH -printer 'Dell C1760nw Color Printer' -ghostscript C:\miracaPrint\pdfs\test - Copy.pdf"
+Couldn't open Windows GDI printer driver
+Requested printer: "'Dell"
+Available printers:
+  "Fax"
+  "Dell C1760nw Color Printer"
+  "Adobe PDF"
+
+2015-12-11T21:35:07.378Z - error: C:\miracaPrint\pdfs\test - Copy.pdf did not print.

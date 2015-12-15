@@ -1,0 +1,34 @@
+2015-12-15T20:36:56.217Z - info: Starting svcMgr with pid 24972
+2015-12-15T20:36:56.227Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js with parameters:-name,printSvc,-title,test1,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-15T20:36:56.230Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js with parameters:-name,printSvc,-title,test2,-printerName,testprinter2,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test2
+2015-12-15T20:36:56.234Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js with parameters:-name,printSvc,-title,test3,-printerName,testprinter3,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test3
+2015-12-15T20:36:56.239Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js with parameters:-name,printSvc,-title,test4,-printerName,testprinter4,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test4
+2015-12-15T20:43:19.184Z - info: Starting svcMgr with pid 28048
+2015-12-15T20:43:19.193Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js with parameters:-name,printSvc,-title,test1,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-15T20:43:19.198Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js with parameters:-name,printSvc,-title,test2,-printerName,testprinter2,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test2
+2015-12-15T20:43:19.205Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js with parameters:-name,printSvc,-title,test3,-printerName,testprinter3,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test3
+2015-12-15T20:43:19.212Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js with parameters:-name,printSvc,-title,test4,-printerName,testprinter4,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test4
+2015-12-15T20:47:02.081Z - info: Starting svcMgr with pid 24400
+2015-12-15T20:47:02.097Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js with parameters:-name,printSvc,-title,test1,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-15T20:47:02.097Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js with parameters:-name,printSvc,-title,test2,-printerName,testprinter2,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test2
+2015-12-15T20:47:02.112Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js with parameters:-name,printSvc,-title,test3,-printerName,testprinter3,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test3
+2015-12-15T20:47:02.112Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js with parameters:-name,printSvc,-title,test4,-printerName,testprinter4,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test4
+2015-12-15T20:51:01.277Z - info: Starting svcMgr with pid 27880
+2015-12-15T20:51:01.293Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js with parameters:-name,printSvc,-title,test1,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-15T20:51:01.293Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js with parameters:-name,printSvc,-title,test2,-printerName,testprinter2,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test2
+2015-12-15T20:51:01.293Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js with parameters:-name,printSvc,-title,test3,-printerName,testprinter3,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test3
+2015-12-15T20:51:01.293Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js with parameters:-name,printSvc,-title,test4,-printerName,testprinter4,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test4
+2015-12-15T20:52:50.850Z - info: Starting svcMgr with pid 27844
+2015-12-15T20:52:50.866Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js with parameters:-name,printSvc,-title,test1,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-15T20:52:50.866Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js with parameters:-name,printSvc,-title,test2,-printerName,testprinter2,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test2
+2015-12-15T20:52:50.866Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js with parameters:-name,printSvc,-title,test3,-printerName,testprinter3,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test3
+2015-12-15T20:52:50.881Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js with parameters:-name,printSvc,-title,test4,-printerName,testprinter4,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test4
+2015-12-15T20:54:09.283Z - info: Starting svcMgr with pid 20408
+2015-12-15T20:54:09.298Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-15T20:54:09.298Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js with parameters:
+-name,printSvc,-title,test2,-printerName,testprinter2,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test2
+2015-12-15T20:54:09.298Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js with parameters:
+-name,printSvc,-title,test3,-printerName,testprinter3,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test3
+2015-12-15T20:54:09.298Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js with parameters:
+-name,printSvc,-title,test4,-printerName,testprinter4,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test4

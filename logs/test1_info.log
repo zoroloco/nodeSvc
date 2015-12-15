@@ -1,0 +1,31 @@
+2015-12-15T20:36:56.798Z - info: Now watching:C:\Users\kcenturion\Documents\dev\printMonitor\test\test1 for new files.
+2015-12-15T20:37:15.684Z - info: File C:\Users\kcenturion\Documents\dev\printMonitor\test\test1\New Text Document.txt has been added.
+2015-12-15T20:37:15.730Z - error: uncaughtException: executeCommand is not defined date=Tue Dec 15 2015 14:37:15 GMT-0600 (Central Standard Time), pid=29332, uid=null, gid=null, cwd=C:\Users\kcenturion\Documents\dev\printMonitor, execPath=C:\Program Files\nodejs\node.exe, version=v0.12.7, argv=[C:\Program Files\nodejs\node.exe, C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js, -name, printSvc, -title, test1, -printerName, testprinter1, -watchDir, C:\Users\kcenturion\Documents\dev\printMonitor\test\test1], rss=30969856, heapTotal=18061824, heapUsed=10228528, loadavg=[0, 0, 0], uptime=323952.1634302, trace=[column=6, file=C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js, function=null, line=44, method=null, native=false, column=19, file=fs.js, function=FSReqWrap.cb [as oncomplete], line=226, method=cb [as oncomplete], native=false], stack=[ReferenceError: executeCommand is not defined,     at C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js:44:6,     at FSReqWrap.cb [as oncomplete] (fs.js:226:19)]
+2015-12-15T20:37:17.854Z - info: File C:\Users\kcenturion\Documents\dev\printMonitor\test\test1\cxxc.txt has been added.
+2015-12-15T20:37:17.874Z - error: uncaughtException: executeCommand is not defined date=Tue Dec 15 2015 14:37:17 GMT-0600 (Central Standard Time), pid=29332, uid=null, gid=null, cwd=C:\Users\kcenturion\Documents\dev\printMonitor, execPath=C:\Program Files\nodejs\node.exe, version=v0.12.7, argv=[C:\Program Files\nodejs\node.exe, C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js, -name, printSvc, -title, test1, -printerName, testprinter1, -watchDir, C:\Users\kcenturion\Documents\dev\printMonitor\test\test1], rss=31694848, heapTotal=18061824, heapUsed=11244272, loadavg=[0, 0, 0], uptime=323954.3054302, trace=[column=6, file=C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js, function=null, line=44, method=null, native=false, column=19, file=fs.js, function=FSReqWrap.cb [as oncomplete], line=226, method=cb [as oncomplete], native=false], stack=[ReferenceError: executeCommand is not defined,     at C:\Users\kcenturion\Documents\dev\printMonitor\services\printSvc.js:44:6,     at FSReqWrap.cb [as oncomplete] (fs.js:226:19)]
+2015-12-15T20:43:19.838Z - info: Now watching:C:\Users\kcenturion\Documents\dev\printMonitor\test\test1 for new files.
+2015-12-15T20:47:02.658Z - info: test1:Now watching:C:\Users\kcenturion\Documents\dev\printMonitor\test\test1 for new files.
+2015-12-15T20:47:21.654Z - info: test1:File C:\Users\kcenturion\Documents\dev\printMonitor\test\test1\cxxc - Copy.txt has been added.
+2015-12-15T20:51:01.901Z - info: test1:Now watching:C:\Users\kcenturion\Documents\dev\printMonitor\test\test1 for new files.
+2015-12-15T20:51:32.963Z - info: test1:File C:\Users\kcenturion\Documents\dev\printMonitor\test\test1\cxxc - Copy (2).txt has been added.
+2015-12-15T20:51:33.009Z - info: test1:Error executing command gsprint -printer testprinter1 C:\Users\kcenturion\Documents\dev\printMonitor\test\test1\cxxc - Copy (2).txt with stderr:'gsprint' is not recognized as an internal or external command,
+operable program or batch file.
+
+2015-12-15T20:51:33.009Z - error: test1:C:\Users\kcenturion\Documents\dev\printMonitor\test\test1\cxxc - Copy (2).txt did not print.
+2015-12-15T20:51:33.025Z - info: test1:Error executing command gsprint -printer testprinter1 C:\Users\kcenturion\Documents\dev\printMonitor\test\test1\cxxc - Copy (2).txt with error:Error: Command failed: C:\Windows\system32\cmd.exe /s /c "gsprint -printer testprinter1 C:\Users\kcenturion\Documents\dev\printMonitor\test\test1\cxxc - Copy (2).txt"
+'gsprint' is not recognized as an internal or external command,
+operable program or batch file.
+
+2015-12-15T20:51:33.025Z - error: test1:C:\Users\kcenturion\Documents\dev\printMonitor\test\test1\cxxc - Copy (2).txt did not print.
+2015-12-15T20:52:51.380Z - info: test1:Now watching:C:\Users\kcenturion\Documents\dev\printMonitor\test\test1 for new files.
+2015-12-15T20:54:09.903Z - info: test1:Now watching:C:\Users\kcenturion\Documents\dev\printMonitor\test\test1 for new files.
+2015-12-15T20:54:28.499Z - info: test1:File C:\Users\kcenturion\Documents\dev\printMonitor\test\test1\cxxc - Copy - Copy.txt has been added.
+2015-12-15T20:54:28.562Z - info: test1:Error executing command gsprint -printer testprinter1 C:\Users\kcenturion\Documents\dev\printMonitor\test\test1\cxxc - Copy - Copy.txt with stderr:'gsprint' is not recognized as an internal or external command,
+operable program or batch file.
+
+2015-12-15T20:54:28.562Z - error: test1:C:\Users\kcenturion\Documents\dev\printMonitor\test\test1\cxxc - Copy - Copy.txt did not print.
+2015-12-15T20:54:28.562Z - info: test1:Error executing command gsprint -printer testprinter1 C:\Users\kcenturion\Documents\dev\printMonitor\test\test1\cxxc - Copy - Copy.txt with error:Error: Command failed: C:\Windows\system32\cmd.exe /s /c "gsprint -printer testprinter1 C:\Users\kcenturion\Documents\dev\printMonitor\test\test1\cxxc - Copy - Copy.txt"
+'gsprint' is not recognized as an internal or external command,
+operable program or batch file.
+
+2015-12-15T20:54:28.578Z - error: test1:C:\Users\kcenturion\Documents\dev\printMonitor\test\test1\cxxc - Copy - Copy.txt did not print.

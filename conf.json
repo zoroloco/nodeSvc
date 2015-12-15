@@ -1,16 +1,19 @@
-{"logDir" : "C:\\Users\\kcenturion\\Documents\\dev\\printMonitor\\logs",
- "monitors" : [ 
-    {"processName" : "test1", 
+{"services" : [ 
+    {"name" : "printSvc",
+	 "title" : "test1", 
 	 "printerName" : "testprinter1",
 	 "watchDir": "C:\\Users\\kcenturion\\Documents\\dev\\printMonitor\\test\\test1"},
-	{"processName" : "test2",
+	{"name" : "printSvc",
+	 "title" : "test2",
      "printerName" : "testprinter2",
 	 "watchDir": "C:\\Users\\kcenturion\\Documents\\dev\\printMonitor\\test\\test2"},
-	{"processName" : "test3", 
+	{"name" : "printSvc",
+	 "title" : "test3", 
 	 "printerName" : "testprinter3",
 	 "watchDir": "C:\\Users\\kcenturion\\Documents\\dev\\printMonitor\\test\\test3"},
-	{"processName" : "test4", 
+	{"name" : "printSvc",
+	 "title" : "test4", 
 	 "printerName" : "testprinter4",
-	 "watchDir": "C:\\Users\\kcenturion\\Documents\\dev\\printMonitor\\test\\test4"},
+	 "watchDir": "C:\\Users\\kcenturion\\Documents\\dev\\printMonitor\\test\\test4"}
 	] 
 }

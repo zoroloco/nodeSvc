@@ -1,19 +1,30 @@
-{"services" : [ 
-    {"name" : "printSvc",
-	 "title" : "test1", 
+{"log" : "true",
+
+ "services" : [ 
+    {"name"        : "printSvc",
+	 "title"       : "test1", 
+	 "log"         : true,
+	 "keepAlive"   : true,
 	 "printerName" : "testprinter1",
-	 "watchDir": "C:\\Users\\kcenturion\\Documents\\dev\\printMonitor\\test\\test1"},
-	{"name" : "printSvc",
-	 "title" : "test2",
+	 "watchDir"    : "C:\\Users\\kcenturion\\Documents\\dev\\nodeSvc\\test"},
+	 
+	{"name"        : "printSvc",
+	 "title"       : "test2",
+	 "log"         : true,
      "printerName" : "testprinter2",
-	 "watchDir": "C:\\Users\\kcenturion\\Documents\\dev\\printMonitor\\test\\test2"},
-	{"name" : "printSvc",
-	 "title" : "test3", 
+	 "watchDir"    : "C:\\Users\\kcenturion\\Documents\\dev\\nodeSvc\\test"},
+	 
+	{"name"        : "printSvc",
+	 "title"       : "test3", 
+	 "log"         : true,
 	 "printerName" : "testprinter3",
-	 "watchDir": "C:\\Users\\kcenturion\\Documents\\dev\\printMonitor\\test\\test3"},
-	{"name" : "printSvc",
-	 "title" : "test4", 
+	 "watchDir"    : "C:\\Users\\kcenturion\\Documents\\dev\\nodeSvc\\test"},
+	 
+	{"name"        : "printSvc",
+	 "title"       : "test4", 
+	 "log"         : true,
 	 "printerName" : "testprinter4",
-	 "watchDir": "C:\\Users\\kcenturion\\Documents\\dev\\printMonitor\\test\\test4"}
+	 "keepAlive"   : true,
+	 "watchDir"    : "C:\\Users\\kcenturion\\Documents\\dev\\nodeSvc\\test1"}
 	] 
 }

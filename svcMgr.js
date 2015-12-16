@@ -6,8 +6,8 @@ var utils        = require('./commonUtils.js'),
 	logger       = require('./logger.js');
 
 process.title   = "svcMgr";
-process.version = "1.0";	
-var log         = logger.initLogger(process.title);		
+process.version = "0.0";	
+var log         = logger.initLogger(process.title,false);
 	
 /**
  * 
@@ -21,7 +21,26 @@ process.on('SIGTERM', function() {
 
 start = function(conf){		   	 
 
-	function startService(service){
+	function startService(service){	
+		var svcName = service.name+"-"+service.title;
+	
+		function retryService(){
+			if(service.keepAlive == true){
+				var secondsElapsed = 10;
+				log.info(process.title+":Retrying "+svcName+" in "+secondsElapsed+" seconds.");
+				
+				setInterval(function(){					
+					secondsElapsed--;
+					//log.info(process.title+":Retrying "+service.name+" in "+secondsElapsed+" seconds.");
+					
+					if(secondsElapsed <= 0){
+						clearInterval(this);
+						startService(service);
+					}
+				},1000);				
+			}		
+		}
+	
 		var paramArray = new Array();
 		
 		for(var attributename in service){
@@ -32,33 +51,40 @@ start = function(conf){
 		var p = pathUtil.join(pathUtil.join(__dirname,"services"),service.name)+".js";
 	
 		var nodeChildProcess = childprocess.fork(p,paramArray,{timeout: 25000,env: process.env});
-		log.info(process.title+": Just forked child:"+p+" with parameters:\n"+paramArray);
+		log.info(process.title+": Just forked child:"+svcName+" with parameters:\n"+paramArray);
 		
 		if(!utils.isEmpty(nodeChildProcess)){											
 			//nodeChildProcess.send(data);			
 			
 			nodeChildProcess.on('message', function(nodeServiceOutput){
-				log.info(service.name+" sent up message:"+nodeServiceOutput);
+				log.info(process.title+":"+service.name+" sent up message:"+nodeServiceOutput);
 			});						
 
 			nodeChildProcess.on('error', function(err){
-				log.error(process.title+":"+p+" child process error "+err);
+				log.error(process.title+":"+svcName+" child process error "+err);
 			});
 
 			nodeChildProcess.on('close', function(code,signal){
 				if(!utils.isEmpty(code)){
-					log.warn(process.title+":"+p+" child process exited with code "+code);
+					if(code == 0){
+						log.info(process.title+":"+svcName+" child process exited normally with code: "+code);	
+					}
+					else{
+						log.error(process.title+":"+svcName+" child process exited with code: "+code);
+					}					
 				}
 				else if(!utils.isEmpty(signal)){
-					log.error(process.title+":"+p+" child process terminated by signal "+signal);
+					log.error(process.title+":"+svcName+" child process terminated by signal "+signal);
 				}
 				else{
-					log.warn(process.title+":"+p+" child process exited");
-				}								
+					log.warn(process.title+":"+svcName+" child process exited.");
+				}	
+
+				retryService();									
 			});
 			
 			nodeChildProcess.on('uncaughtException', function (err) {
-				var msg="Uncaught Exception with node process:"+p+" ";
+				var msg="Uncaught Exception with node process:"+svcName+" ";
 				if( err.name === 'AssertionError' ) {
 					msg += err.message;
 				} else {
@@ -82,7 +108,12 @@ start = function(conf){
 		}				
 	}//startServices
 
-	log.info("Starting "+process.title+" with pid "+process.pid);
+	if(conf.log == 'true'){
+		log = logger.initLogger(process.title,true);
+	}	
+	
+	log.info("Starting "+process.title+" with pid "+process.pid);	
+	
 	process.argv.forEach(function (val, index, array){
 		if(val == '-version'){	 
 			log.info("Version:"+process.version);	

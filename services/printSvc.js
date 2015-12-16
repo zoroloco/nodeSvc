@@ -4,12 +4,18 @@ var pathUtil = require('path'),
     net      = require('net'),
     chokidar = require('chokidar'),
     fs       = require('fs');
-    
-process.version = "1.0";			
+
+var log = logger.initLogger(process.title,false);
+
+process.version = "0.0";			
 
 process.on('SIGTERM', function() {
 	log.warn(process.title+": Got kill signal. Exiting.");
 	process.exit();
+});
+	
+process.on('uncaughtException', function(err) {
+    //log.error('Caught exception: ' + err);
 });
 	
 process.on('message', function(data) {
@@ -45,25 +51,23 @@ process.on('message', function(data) {
 		}
 		
 		function processFileAdd(filePath){
-			fs.exists(filePath, function (exists) {
-				if(exists){															
-					utils.executeCommand(getPrintCmd(filePath),
-						function(result,msg){
-							log.info(process.title+":"+msg);
-							
-							if(result){
-								log.info(process.title+":"+filePath+" printed successfully.");
-								deleteFile(filePath);
-							}
-							else{
-								log.error(process.title+":"+filePath+" did not print.");
-							}
-						});																																					
-				}
-				else{
-					log.error(process.title+":"+filePath+" does not exist. Cannot print.");
-				}
-			});			
+			if(fs.statSync(filePath).isFile()){
+				utils.executeCommand(getPrintCmd(filePath),
+				function(result,msg){
+					log.info(process.title+":"+msg);
+					
+					if(result){
+						log.info(process.title+":"+filePath+" printed successfully.");
+						deleteFile(filePath);
+					}
+					else{
+						log.error(process.title+":"+filePath+" did not print.");
+					}
+				});										
+			}			
+			else{
+				log.error(process.title+":"+filePath+" does not exist. Cannot print.");
+			}
 		}//processFileAdd
 
 		function watchDirectory(){
@@ -83,12 +87,12 @@ process.on('message', function(data) {
 		}//watchDir
 		
 
-		var log,
-		    debug        = false,
+		var debug        = false,
 			deleteFiles  = false,
 			printerName  = '',
 			processTitle = '',			
-			watchDir     = '';
+			watchDir     = '',
+			logToFile    = false;
 		
 		process.argv.forEach(function (val, index, array){			
 			if(val == '-debug'){
@@ -97,6 +101,11 @@ process.on('message', function(data) {
 			
 			if(val == '-watchDir' && array.length>=index+1){	 
 				watchDir = process.argv[index+1];	
+			}
+			
+			if(val == '-log' && array.length>=index+1){	 
+				if(process.argv[index+1] == 'true')
+					logToFile = true;
 			}
 			
 			if(val == '-deleteFiles' && array.length>=index+1){	 
@@ -117,23 +126,36 @@ process.on('message', function(data) {
 		   process.title = processTitle;
 		}
 		else{
-			console.log(process.title+":Process title is a required argument. Please run with -title")
+			log.error(process.title+":Process title is a required argument. Please run with -title")
 			process.exit(1);
 		}
 		
 		if(utils.isEmpty(printerName)){//need printer name
-			console.log(process.title+":Printer name is a required argument. Please run with -printerName");
+			log.error(process.title+":Printer name is a required argument. Please run with -printerName");
 			process.exit(1);
 		}
 
-		log = logger.initLogger(process.title);
+		if(logToFile)
+			log = logger.initLogger(process.title,true);
 		
 		if(utils.isEmpty(watchDir)){//need watchDir
 			log.error(process.title+":Watch directory is a required argument. Please run with -watchDir");
 			process.exit(1);			
 		}
 		else{
-			watchDirectory();
+			try{
+				if(fs.statSync(watchDir).isDirectory()){
+					watchDirectory();	
+				}	
+				else{
+					log.error(process.title+": Watch directory:"+watchDir+" does not exist on the file system.");
+					process.exit(1);
+				}
+			}
+			catch(e){
+				log.error(process.title+":"+e);
+				process.exit(1);
+			}
 		}
 		
 	}();

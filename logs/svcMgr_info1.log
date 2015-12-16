@@ -1,0 +1,722 @@
+2015-12-16T21:23:15.157Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:23:15.157Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:23:25.161Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:23:25.557Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:23:25.557Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:23:35.564Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:23:35.973Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:23:35.973Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:23:45.985Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:23:46.349Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:23:46.351Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:23:56.360Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:23:56.739Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:23:56.739Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:24:06.744Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:24:07.117Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:24:07.117Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:24:17.121Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:24:17.461Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:24:17.461Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:24:27.474Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:24:28.054Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:24:28.055Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:24:38.067Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:24:38.477Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:24:38.478Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:24:48.492Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:24:48.920Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:24:48.921Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:24:58.927Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:24:59.327Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:24:59.328Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:25:09.334Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:25:09.726Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:25:09.727Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:25:19.735Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:25:20.133Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:25:20.134Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:25:30.137Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:25:30.527Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:25:30.528Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:25:40.530Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:25:40.936Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:25:40.937Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:25:50.946Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:25:51.331Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:25:51.331Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:26:01.339Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:26:01.722Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:26:01.722Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:26:11.729Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:26:12.146Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:26:12.147Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:26:22.154Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:26:22.530Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:26:22.530Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:26:32.534Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:26:32.904Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:26:32.905Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:26:42.927Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:26:43.284Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:26:43.284Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:26:53.293Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:26:53.683Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:26:53.684Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:27:03.689Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:27:04.081Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:27:04.082Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:27:14.089Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:27:14.455Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:27:14.455Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:27:24.460Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:27:24.860Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:27:24.860Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:27:34.867Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:27:35.219Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:27:35.220Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:27:45.228Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:27:45.595Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:27:45.596Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:27:55.609Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:27:55.970Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:27:55.971Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:28:05.979Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:28:06.353Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:28:06.354Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:28:16.359Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:28:16.737Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:28:16.738Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:28:26.749Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:28:27.120Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:28:27.120Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:28:37.132Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\printMonitor\test\test1
+2015-12-16T21:28:37.510Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T21:28:37.512Z - info: svcMgr:Retrying printSvc-test1 in 10 seconds.
+2015-12-16T21:57:07.299Z - info: Starting svcMgr with pid 4232
+2015-12-16T21:57:07.311Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test
+2015-12-16T21:57:07.317Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test2,-log,true,-printerName,testprinter2,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test
+2015-12-16T21:57:07.320Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test3,-log,true,-printerName,testprinter3,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test
+2015-12-16T21:57:07.325Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test
+2015-12-16T21:57:17.893Z - info: Starting svcMgr with pid 31820
+2015-12-16T21:57:17.901Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test
+2015-12-16T21:57:17.906Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test2,-log,true,-printerName,testprinter2,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test
+2015-12-16T21:57:17.910Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test3,-log,true,-printerName,testprinter3,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test
+2015-12-16T21:57:17.918Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T21:57:18.540Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T22:04:14.141Z - info: Starting svcMgr with pid 33832
+2015-12-16T22:04:14.150Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test
+2015-12-16T22:04:14.154Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test2,-log,true,-printerName,testprinter2,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test
+2015-12-16T22:04:14.157Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test3,-log,true,-printerName,testprinter3,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test
+2015-12-16T22:04:14.160Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:04:14.750Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T22:04:14.751Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:04:24.767Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:04:25.150Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T22:04:25.151Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:04:35.162Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:04:35.528Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T22:04:35.528Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:04:45.537Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:04:45.934Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T22:04:45.935Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:04:55.944Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:04:56.323Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T22:04:56.324Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:05:06.332Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:05:06.729Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T22:05:06.730Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:05:16.737Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:05:17.151Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T22:05:17.151Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:05:27.162Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:05:27.553Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T22:05:27.554Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:05:37.563Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:05:37.932Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T22:05:37.933Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:05:47.944Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:05:48.317Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T22:05:48.318Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:05:58.327Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:05:58.694Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T22:05:58.694Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:06:08.711Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:06:09.068Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T22:06:09.069Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:06:19.076Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:06:19.451Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T22:06:19.452Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:06:29.461Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:06:29.829Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T22:06:29.829Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:06:39.850Z - info: svcMgr: Just forked child:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:06:40.222Z - error: svcMgr:C:\Users\kcenturion\Documents\dev\nodeSvc\services\printSvc.js child process exited with code: 1
+2015-12-16T22:06:40.223Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:06:49.408Z - info: Starting svcMgr with pid 31160
+2015-12-16T22:06:49.417Z - info: svcMgr: Just forked child:printSvc-test1 with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test
+2015-12-16T22:06:49.421Z - info: svcMgr: Just forked child:printSvc-test2 with parameters:
+-name,printSvc,-title,test2,-log,true,-printerName,testprinter2,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test
+2015-12-16T22:06:49.427Z - info: svcMgr: Just forked child:printSvc-test3 with parameters:
+-name,printSvc,-title,test3,-log,true,-printerName,testprinter3,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test
+2015-12-16T22:06:49.440Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:06:50.054Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:06:50.055Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:07:00.070Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:07:00.427Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:07:00.428Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:07:10.438Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:07:10.810Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:07:10.811Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:07:20.820Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:07:21.186Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:07:21.187Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:07:31.197Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:07:31.569Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:07:31.570Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:07:41.584Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:07:41.955Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:07:41.957Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:07:51.956Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:07:52.295Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:07:52.296Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:08:02.309Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:08:02.671Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:08:02.672Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:08:12.679Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:08:13.071Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:08:13.071Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:08:23.080Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:08:23.490Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:08:23.491Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:08:33.499Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:08:33.869Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:08:33.869Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:08:43.876Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:08:44.258Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:08:44.259Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:08:54.262Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:08:54.626Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:08:54.627Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:09:04.633Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:09:05.024Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:09:05.025Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:09:15.046Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:09:15.415Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:09:15.415Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:09:25.421Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:09:25.817Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:09:25.818Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:09:35.826Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:09:36.201Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:09:36.201Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:09:46.209Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:09:46.610Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:09:46.610Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:09:56.614Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:09:56.986Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:09:56.987Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:10:06.990Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:10:07.320Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:10:07.321Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:10:17.328Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:10:17.692Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:10:17.693Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:10:27.702Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:10:28.096Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:10:28.097Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:10:38.105Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:10:38.480Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:10:38.481Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:10:48.487Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:10:48.856Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:10:48.856Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:10:58.861Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:10:59.249Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:10:59.250Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:11:09.258Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:11:09.651Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:11:09.652Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:11:19.660Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:11:20.026Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:11:20.026Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:11:30.035Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:11:30.419Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:11:30.419Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:11:40.428Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:11:40.788Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:11:40.788Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:11:50.799Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:11:51.185Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:11:51.186Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:12:01.190Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:12:01.553Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:12:01.553Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:12:11.562Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:12:11.924Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:12:11.924Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:12:21.934Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:12:22.304Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:12:22.305Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:12:32.333Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:12:32.718Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:12:32.719Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:12:42.726Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:12:43.096Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:12:43.097Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:12:53.103Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:12:53.471Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:12:53.472Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:13:03.475Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:13:03.848Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:13:03.848Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:13:13.857Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:13:14.230Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:13:14.231Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:13:24.239Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:13:24.632Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:13:24.632Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:13:34.641Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:13:35.014Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:13:35.014Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:13:45.022Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:13:45.397Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:13:45.398Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:13:55.408Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:13:55.776Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:13:55.777Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:14:05.777Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:14:06.208Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:14:06.210Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:14:16.214Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:14:16.562Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:14:16.563Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:14:26.567Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:14:26.991Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:14:26.992Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:14:36.999Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:14:37.359Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:14:37.359Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:14:47.367Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:14:47.768Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:14:47.768Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:14:57.774Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:14:58.164Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:14:58.164Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:15:08.174Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:15:08.563Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:15:08.564Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:15:18.571Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:15:18.971Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:15:18.972Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:15:28.977Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:15:29.460Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:15:29.461Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:15:39.471Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:15:39.851Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:15:39.852Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:15:49.858Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:15:50.221Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:15:50.222Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:16:00.229Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:16:00.623Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:16:00.624Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:16:10.627Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:16:11.015Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:16:11.016Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:16:21.020Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:16:21.368Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:16:21.369Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:16:31.371Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:16:31.763Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:16:31.764Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:16:41.771Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:16:42.154Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:16:42.154Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:16:52.162Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:16:52.533Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:16:52.534Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:17:02.536Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:17:02.891Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:17:02.891Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:17:12.894Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:17:13.279Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:17:13.280Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:17:23.287Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:17:23.660Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:17:23.660Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:17:33.667Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:17:34.050Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:17:34.050Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:17:44.057Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:17:44.464Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:17:44.464Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:17:54.472Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:17:54.842Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:17:54.843Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:18:04.849Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:18:05.213Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:18:05.213Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:18:15.217Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:18:15.586Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:18:15.586Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:18:25.594Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:18:25.971Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:18:25.971Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:18:35.977Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:18:36.346Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:18:36.347Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:18:46.355Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:18:46.716Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:18:46.717Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:18:56.723Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:18:57.102Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:18:57.102Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:19:07.110Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:19:07.509Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:19:07.510Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:19:17.513Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:19:17.880Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:19:17.881Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:19:27.889Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:19:28.252Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:19:28.252Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:19:38.257Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:19:38.643Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:19:38.644Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:19:48.667Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:19:49.074Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:19:49.075Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:19:59.083Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:19:59.481Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:19:59.481Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:20:09.489Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:20:09.836Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:20:09.837Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:20:19.843Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:20:20.209Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:20:20.209Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:20:30.214Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:20:30.557Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:20:30.557Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:20:40.564Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:20:40.934Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:20:40.934Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:20:50.942Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:20:51.342Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:20:51.343Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:21:01.349Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:21:01.766Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:21:01.766Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:21:11.775Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:21:12.138Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:21:12.138Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:21:22.143Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:21:22.508Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:21:22.508Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:21:32.515Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:21:32.890Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:21:32.890Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:21:42.896Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:21:43.268Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:21:43.268Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:21:53.272Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:21:53.632Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:21:53.632Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:22:03.640Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:22:04.008Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:22:04.008Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:22:14.015Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:22:14.384Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:22:14.384Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:22:24.388Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:22:24.754Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:22:24.755Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:22:34.762Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:22:35.148Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:22:35.149Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:22:45.156Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:22:45.530Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:22:45.531Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:22:55.540Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:22:55.912Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:22:55.912Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:23:05.919Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:23:06.296Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:23:06.296Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:23:16.311Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:23:16.663Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:23:16.663Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:23:26.667Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:23:27.032Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:23:27.033Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:23:37.040Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:23:37.401Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:23:37.402Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:23:47.423Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:23:47.768Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:23:47.769Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:23:57.776Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:23:58.192Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:23:58.193Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:24:08.201Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:24:08.567Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:24:08.567Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:24:18.575Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:24:18.938Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:24:18.938Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:24:28.942Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:24:29.317Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:24:29.317Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:24:39.326Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:24:39.694Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:24:39.694Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:24:49.701Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:24:50.067Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:24:50.067Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:25:00.077Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:25:00.467Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:25:00.467Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:25:10.477Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:25:10.831Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:25:10.831Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:25:20.838Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:25:21.210Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:25:21.211Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:25:31.215Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:25:31.599Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:25:31.600Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:25:41.607Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:25:41.967Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:25:41.967Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:25:51.975Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:25:52.366Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:25:52.366Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:26:02.372Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:26:02.735Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:26:02.735Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:26:12.744Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:26:13.129Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:26:13.130Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:26:23.137Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:26:23.548Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:26:23.549Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:26:33.548Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:26:33.950Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:26:33.950Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:26:43.979Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:26:44.331Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:26:44.331Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:26:54.339Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:26:54.742Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:26:54.743Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:27:04.751Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:27:05.141Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:27:05.141Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:27:15.148Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:27:15.519Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:27:15.520Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:27:25.526Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:27:25.895Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:27:25.895Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:27:35.899Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:27:36.273Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:27:36.274Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:27:46.280Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:27:46.713Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:27:46.713Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:27:56.720Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:27:57.120Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:27:57.120Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.
+2015-12-16T22:28:03.481Z - info: Starting svcMgr with pid 33316
+2015-12-16T22:28:03.493Z - info: svcMgr: Just forked child:printSvc-test1 with parameters:
+-name,printSvc,-title,test1,-log,true,-keepAlive,true,-printerName,testprinter1,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test
+2015-12-16T22:28:03.499Z - info: svcMgr: Just forked child:printSvc-test2 with parameters:
+-name,printSvc,-title,test2,-log,true,-printerName,testprinter2,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test
+2015-12-16T22:28:03.507Z - info: svcMgr: Just forked child:printSvc-test3 with parameters:
+-name,printSvc,-title,test3,-log,true,-printerName,testprinter3,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test
+2015-12-16T22:28:03.516Z - info: svcMgr: Just forked child:printSvc-test4 with parameters:
+-name,printSvc,-title,test4,-log,true,-printerName,testprinter4,-keepAlive,true,-watchDir,C:\Users\kcenturion\Documents\dev\nodeSvc\test1
+2015-12-16T22:28:04.119Z - error: svcMgr:printSvc-test4 child process exited with code: 1
+2015-12-16T22:28:04.121Z - info: svcMgr:Retrying printSvc-test4 in 10 seconds.

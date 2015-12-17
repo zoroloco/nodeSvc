@@ -1,4 +1,5 @@
-var utils    = require(pathUtil.join(__dirname,'../commonUtils.js')),
+var pathUtil = require('path'),
+    utils    = require(pathUtil.join(__dirname,'../commonUtils.js')),
 	logger   = require(pathUtil.join(__dirname,'../logger.js'));
 
 var log = logger.initLogger(process.title,false);
@@ -42,7 +43,7 @@ function send(msg){
 					log.info(process.title+":"+msg);
 					
 					if(cmdResult){
-						log.info(cmd+" executed successfully.");
+						log.info(cmd+" executed successfully with standard out:"+stdout);
 					}
 					else{
 						log.error(cmd+" failed to execute.");

@@ -25,6 +25,13 @@ process.on('message', function(data) {
 	}
 });
 	
+function send(msg){
+	if(!debug)
+		process.send(msg);
+	else
+		log.info(msg);
+}
+
 	/*
 	 *
 	 *

@@ -7,28 +7,14 @@
 	 "keepAlive"   : true,
 	 "printerName" : "testprinter1",
 	 "deleteFiles" : true,
-	 "watchDir"    : "C:\\Users\\kcenturion\\Documents\\dev\\nodeSvc\\test"},
-	 
-	{"name"        : "printSvc",
-	 "title"       : "test2",
-	 "log"         : false,
-     "printerName" : "testprinter2",
 	 "disabled"    : true,
 	 "watchDir"    : "C:\\Users\\kcenturion\\Documents\\dev\\nodeSvc\\test"},
 	 
-	{"name"        : "printSvc",
-	 "title"       : "test3", 
-	 "log"         : false,
-	 "printerName" : "testprinter3",
-	 "disabled"    : true,
-	 "watchDir"    : "C:\\Users\\kcenturion\\Documents\\dev\\nodeSvc\\test"},
+	{"name"        : "shellSvc",
+	 "title"       : "h264Streamer",
+	 "cmd"         : "raspivid -t 999999 -fps 24 -w 320 -h 240 -b 800000 -o - | ffmpeg -f h264 -i - -codec:v libtheora -qscale:v 4 -an http://localhost:8160/feed.ffm",
+	 "log"         : "false",
+	 "keepAlive"   : true}
 	 
-	{"name"        : "printSvc",
-	 "title"       : "test4", 
-	 "log"         : false,
-	 "printerName" : "testprinter4",
-	 "keepAlive"   : true,
-	 "disabled"    : true,
-	 "watchDir"    : "C:\\Users\\kcenturion\\Documents\\dev\\nodeSvc\\test"}
 	] 
 }

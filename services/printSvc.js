@@ -44,31 +44,61 @@ process.on('message', function(data) {
 		}//deleteFile
 		
 		function getPrintCmd(filePath){
-			if(process.platform == 'win32')
-				return "gsprint -printer "+printerName+" "+filePath;
-			else //linux
-				return "";//use CUPS
+			if(process.platform == 'win32'){
+				//return "gsprint -printer "+printerName+" "+filePath;
+				log.error("Printing not supported on Windows.");
+			}
+			else{ //linux
+				log.info("Printing file:"+filePath);
+			}
+			
+			return null;
 		}
 		
 		function processFileAdd(filePath){
 			if(fs.statSync(filePath).isFile()){
-				utils.executeCommand(getPrintCmd(filePath),
-				function(result,msg){
-					log.info(process.title+":"+msg);
-					
-					if(result){
-						log.info(process.title+":"+filePath+" printed successfully.");
-						deleteFile(filePath);
-					}
-					else{
-						log.error(process.title+":"+filePath+" did not print.");
-					}
-				});										
+				var printCmd = getPrintCmd(filePath);
+				if(!utils.isEmpty(printCmd)){
+					utils.executeCommand(printCmd,
+					function(cmdResult,msg,stdout){
+						log.info(process.title+":"+msg);
+						
+						if(cmdResult){
+							log.info(process.title+":"+filePath+" printed successfully with standard output:"+stdout);
+							if(deleteFiles){
+								log.info("Attempting to delete printed file:"+filePath);
+								deleteFile(filePath);
+							}
+							else{
+								log.info("Attempting to move "+filePath+" to printed folder.");
+								
+							}
+						}
+						else{
+							log.error(process.title+":"+filePath+" did not print.");
+						}
+					});									
+				}										
 			}			
 			else{
 				log.error(process.title+":"+filePath+" does not exist. Cannot print.");
 			}
 		}//processFileAdd
+		
+		function createFolders(){
+			try 
+			{
+				fs.mkdirSync(pathUtil.join(watchDir,"errors"));
+				log.info("Successfully created errors folder.");
+				fs.mkdirSync(pathUtil.join(watchDir,"printed"));
+				log.info("Successfully created printed folder.");
+			} 
+			catch(e) {
+				if ( e.code != 'EEXIST' ){ 
+					throw e;
+				}
+    		}						
+		}
 
 		function watchDirectory(){
 			var watcher = chokidar.watch(watchDir, {
@@ -145,6 +175,7 @@ process.on('message', function(data) {
 		else{
 			try{
 				if(fs.statSync(watchDir).isDirectory()){
+					createFolders();
 					watchDirectory();	
 				}	
 				else{

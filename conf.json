@@ -6,25 +6,29 @@
 	 "log"         : true,
 	 "keepAlive"   : true,
 	 "printerName" : "testprinter1",
+	 "deleteFiles" : true,
 	 "watchDir"    : "C:\\Users\\kcenturion\\Documents\\dev\\nodeSvc\\test"},
 	 
 	{"name"        : "printSvc",
 	 "title"       : "test2",
-	 "log"         : true,
+	 "log"         : false,
      "printerName" : "testprinter2",
+	 "disabled"    : true,
 	 "watchDir"    : "C:\\Users\\kcenturion\\Documents\\dev\\nodeSvc\\test"},
 	 
 	{"name"        : "printSvc",
 	 "title"       : "test3", 
-	 "log"         : true,
+	 "log"         : false,
 	 "printerName" : "testprinter3",
+	 "disabled"    : true,
 	 "watchDir"    : "C:\\Users\\kcenturion\\Documents\\dev\\nodeSvc\\test"},
 	 
 	{"name"        : "printSvc",
 	 "title"       : "test4", 
-	 "log"         : true,
+	 "log"         : false,
 	 "printerName" : "testprinter4",
 	 "keepAlive"   : true,
-	 "watchDir"    : "C:\\Users\\kcenturion\\Documents\\dev\\nodeSvc\\test1"}
+	 "disabled"    : true,
+	 "watchDir"    : "C:\\Users\\kcenturion\\Documents\\dev\\nodeSvc\\test"}
 	] 
 }

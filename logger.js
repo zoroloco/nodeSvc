@@ -14,16 +14,16 @@ function initLogger(processName,logToFile){
 		  transports: [
 			new (winston.transports.Console)({'timestamp' : true,'colorize': true})
 			,new winston.transports.File({ filename: pathUtil.join(logFilePath,processName+"_"+"error.log"), name:'file.error', 
-				level: 'error','maxsize':131072,maxFiles:256, handleExceptions: true,json: false })
+				level: 'error','maxsize':4194304,maxFiles:256, handleExceptions: true,json: false })
 			,new winston.transports.File({ filename: pathUtil.join(logFilePath,processName+"_"+"warn.log"), name:'file.warn', 
-				level: 'warn','maxsize':131072,maxFiles:256, handleExceptions: true,json: false })
+				level: 'warn','maxsize':4194304,maxFiles:256, handleExceptions: true,json: false })
 			,new winston.transports.File({ filename: pathUtil.join(logFilePath,processName+"_"+"info.log"), name:'file.info', 
-				level: 'info','maxsize':131072,maxFiles:256, handleExceptions: true,json: false })
+				level: 'info','maxsize':4194304,maxFiles:256, handleExceptions: true,json: false })
 		  ],
 		  exceptionHandlers: [
 			new (winston.transports.Console)({'timestamp' : true,'colorize': true})
 			,new winston.transports.File({ filename: pathUtil.join(logFilePath,processName+"_"+"exception.log"), 
-				level: 'error','maxsize':131072,'maxFiles':256 })
+				level: 'error','maxsize':4194304,'maxFiles':256 })
 		  ],
 		  exitOnError: false
 		});		

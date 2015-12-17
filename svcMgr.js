@@ -24,6 +24,65 @@ start = function(conf){
 	function startService(service){	
 		var svcName = service.name+"-"+service.title;
 	
+		if(!service.disabled){
+			var paramArray = new Array();
+		
+			for(var attributename in service){
+				paramArray.push("-"+attributename);
+				paramArray.push(service[attributename]);
+			}
+		
+			var p = pathUtil.join(pathUtil.join(__dirname,"services"),service.name)+".js";
+		
+			var nodeChildProcess = childprocess.fork(p,paramArray,{timeout: 25000,env: process.env});
+			log.info(process.title+": Just forked child:"+svcName+" with parameters:\n"+paramArray);
+			
+			if(!utils.isEmpty(nodeChildProcess)){											
+				//nodeChildProcess.send(data);			
+				
+				nodeChildProcess.on('message', function(nodeServiceOutput){
+					log.info(process.title+":"+service.name+" sent up message:"+nodeServiceOutput);
+				});						
+
+				nodeChildProcess.on('error', function(err){
+					log.error(process.title+":"+svcName+" child process error "+err);
+				});
+
+				nodeChildProcess.on('close', function(code,signal){
+					if(!utils.isEmpty(code)){
+						if(code == 0){
+							log.info(process.title+":"+svcName+" child process exited normally with code: "+code);	
+						}
+						else{
+							log.error(process.title+":"+svcName+" child process exited with code: "+code);
+						}					
+					}
+					else if(!utils.isEmpty(signal)){
+						log.error(process.title+":"+svcName+" child process terminated by signal "+signal);
+					}
+					else{
+						log.warn(process.title+":"+svcName+" child process exited.");
+					}	
+
+					retryService();									
+				});
+				
+				nodeChildProcess.on('uncaughtException', function (err) {
+					var msg="Uncaught Exception with node process:"+svcName+" ";
+					if( err.name === 'AssertionError' ) {
+						msg += err.message;
+					} else {
+						msg += err;
+					}
+					log.error(msg);
+				});
+			}
+			
+		}//enabled service
+		else{
+			log.info("Not starting "+svcName+" because it is disabled.");
+		}
+	
 		function retryService(){
 			if(service.keepAlive == true){
 				var secondsElapsed = 10;
@@ -39,60 +98,7 @@ start = function(conf){
 					}
 				},1000);				
 			}		
-		}
-	
-		var paramArray = new Array();
-		
-		for(var attributename in service){
-			paramArray.push("-"+attributename);
-			paramArray.push(service[attributename]);
-		}
-	
-		var p = pathUtil.join(pathUtil.join(__dirname,"services"),service.name)+".js";
-	
-		var nodeChildProcess = childprocess.fork(p,paramArray,{timeout: 25000,env: process.env});
-		log.info(process.title+": Just forked child:"+svcName+" with parameters:\n"+paramArray);
-		
-		if(!utils.isEmpty(nodeChildProcess)){											
-			//nodeChildProcess.send(data);			
-			
-			nodeChildProcess.on('message', function(nodeServiceOutput){
-				log.info(process.title+":"+service.name+" sent up message:"+nodeServiceOutput);
-			});						
-
-			nodeChildProcess.on('error', function(err){
-				log.error(process.title+":"+svcName+" child process error "+err);
-			});
-
-			nodeChildProcess.on('close', function(code,signal){
-				if(!utils.isEmpty(code)){
-					if(code == 0){
-						log.info(process.title+":"+svcName+" child process exited normally with code: "+code);	
-					}
-					else{
-						log.error(process.title+":"+svcName+" child process exited with code: "+code);
-					}					
-				}
-				else if(!utils.isEmpty(signal)){
-					log.error(process.title+":"+svcName+" child process terminated by signal "+signal);
-				}
-				else{
-					log.warn(process.title+":"+svcName+" child process exited.");
-				}	
-
-				retryService();									
-			});
-			
-			nodeChildProcess.on('uncaughtException', function (err) {
-				var msg="Uncaught Exception with node process:"+svcName+" ";
-				if( err.name === 'AssertionError' ) {
-					msg += err.message;
-				} else {
-					msg += err;
-				}
-				log.error(msg);
-			});
-		}	
+		}			
 	}//startService
 
 	function startServices(){

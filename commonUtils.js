@@ -31,7 +31,7 @@ function executeCommand(cmd,cb){
 			cb(false,"Error executing command "+cmd+" with error:"+error);
 		}
 		if(stdout){
-			cb(true,cmd+" successfully executed with no errors.");
+			cb(true,cmd+" successfully executed with no errors.",stdout);
 		}
 	});		
 }

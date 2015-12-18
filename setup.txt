@@ -1,0 +1,45 @@
+apt-get update
+apg-get upgrade
+apt-get install cifs-utils
+apt-get install ntfs-3g
+
+smbclient -L druidia -U kcenturion
+chmod 0600 .smbcredentials
+
+usermod -a -G video kcenturion
+//druidia/media0 /mnt/ntfs/media0 cifs credentials=/home/kcenturion/.smbcredentials,uid=kcenturion 0 0
+wget http://node-arm.herokuapp.com/node_latest_armhf.deb
+sudo dpkg -i node_latest_armhf.deb
+
+systemctl restart smb.service
+systemctl restart nmb.service
+smbpasswd -a username
+chcon -t samba_share_t /mnt/ntfs/media0
+
+nano /etc/samba/smb.conf
+[media2]
+path = /mnt/ntfs/media2
+writable = yes
+browsable = yes
+guest ok = no
+privatable = no
+valid users = kcenturion cambo
+
+setsebool -P samba_share_fusefs on
+
+install node js
+npm install --save getmac
+npm install async
+
+
+crontab -e
+#now enter the following line in the crontab. stdout will be logged in to log folder.
+@reboot sh /usr/local/src/cambo/launcher.sh >/usr/local/src/cambo/logs/cronlog 2>&1
+
+
+sudo apt-get install nginx
+
+and start the server with:
+
+sudo /etc/init.d/nginx start
+

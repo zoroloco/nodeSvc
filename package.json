@@ -1,0 +1,34 @@
+{
+  "name": "nodesvc",
+  "description": "A platform independent node service that can spawn child processes.  All child process parameters can be configured in conf.json.",
+  "version": "0.0.0",
+  "keywords": [
+    "service manager",
+    "child process",
+    "raspberry pi"    
+  ],
+  "author": {
+    "name": "Kenneth Centurion"
+  }
+  "homepage": "https://github.com/zoroloco/nodeSvc",
+  "author": "Kenneth Centurion (https://www.druidia.net)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zoroloco/nodeSvc.git",
+	"email" : "kcenturion@yahoo.com"
+  },
+  "bugs": {
+    "url": "https://github.com/zoroloco/nodeSvc/issues"
+  },
+  "license": "MIT",  
+  "files": [
+    "svcMgr.js",
+    "lib/"
+  ],
+  "dependencies": {
+    "chokidar": "^1.2.0",
+    "async": "^1.4.2",
+    "winston": "^1.1.0"
+  },
+  { "engines" : { "node" : ">=0.12.0" } }
+}

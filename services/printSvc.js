@@ -15,7 +15,9 @@ process.on('SIGTERM', function() {
 });
 	
 process.on('uncaughtException', function(err) {
-    //log.error('Caught exception: ' + err);
+    log.info(process.title+':Caught exception: ' + err);
+	log.info(process.titel+":Exiting.");
+	process.exit(1);
 });
 	
 process.on('message', function(data) {

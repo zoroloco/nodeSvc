@@ -2,7 +2,10 @@
   "name": "nodesvc",
   "version": "0.0.0",
   "description": "A platform independent node service that can spawn child processes.  All child process parameters can be configured in conf.json.",
-  "main": "./lib/svcMgr", 
+  "main": "./lib/svcMgr",
+  "scripts": {
+    "test": "scripts/test.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zoroloco/nodesvc.git"

@@ -1,5 +1,7 @@
-var NodeSvc = require('nodesvc');
+var nodeService = require('nodesvc');
 
-var svcMgr = new NodeSvc();
+var testConfig = {};
+
+var svcMgr = new nodeService(testConfig);
 
 svcMgr.startServices();

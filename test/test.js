@@ -1,5 +1,5 @@
 var nodeService = require('nodesvc');
 
-var testSvc = new nodeService.nodesvc(null);
+var testSvc = new nodeService.nodesvc({});
 
 testSvc.startServices();

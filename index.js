@@ -1,0 +1,1 @@
+exports.nodesvc = require('lib/nodesvc');

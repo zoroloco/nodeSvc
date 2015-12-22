@@ -1,1 +1,3 @@
-exports.nodesvc = require('./lib/nodesvc');
+module.exports = {
+    'nodesvc'       : require('./lib/nodesvc')    
+};

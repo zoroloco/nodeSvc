@@ -1,5 +1,5 @@
-var svcMgr = require('nodesvc');
+var NodeSvc = require('nodesvc');
 
-svcMgr = new NodeSvc();
+var svcMgr = new NodeSvc();
 
 svcMgr.startServices();

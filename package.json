@@ -2,7 +2,7 @@
   "name": "nodesvc",
   "version": "0.0.0",
   "description": "A platform independent node service that can spawn child processes.  All child process parameters can be configured in conf.json.",
-  "main": "node ./lib/svcMgr",
+  "main": "node lib/svcMgr.js",
   "scripts": {
     "test": "node test/test.js"
   },
@@ -14,7 +14,9 @@
     "service",
     "manager"
   ],
-  "author": "Kenneth Centurion",
+  "author": {
+    "name": "Kenneth Centurion"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zoroloco/nodesvc/issues"
@@ -24,5 +26,12 @@
     "async": "^1.5.0",
     "chokidar": "^1.4.1",
     "winston": "^1.1.2"
-  }
+  },
+  "readme": "# nodeSvc\n\nA platform independent node service that can spawn child processes.  All child process parameters can be configured in conf.json.\n\n",
+  "readmeFilename": "README.md",
+  "gitHead": "228adbf5543206c38b85b2f3d8b04448124c3ad8",
+  "_id": "nodesvc@0.0.0",
+  "_shasum": "a9ccac6b3b30997c2e8c8037035bc270686765d1",
+  "_from": "nodesvc",
+  "_resolved": "file:nodesvc"
 }

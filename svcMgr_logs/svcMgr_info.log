@@ -1,0 +1,39 @@
+2015-12-29T21:55:04.835Z - info: File logging enabled. Log files will be kept in:C:\Users\kcenturion\Documents\dev\nodesvc\svcMgr_logs
+2015-12-29T21:55:04.850Z - info: Attempting to start service(s)
+2015-12-29T21:55:04.850Z - info: svcMgr:Not starting printSvc-test1 because it is disabled.
+2015-12-29T21:55:04.850Z - info: svcMgr:Just forked child:shellSvc-h264Streamer with parameters:
+-name,shellSvc,-title,h264Streamer,-cmd,raspivid -t 999999 -fps 24 -w 320 -h 240 -b 800000 -o - | ffmpeg -f h264 -i - -codec:v libtheora -qscale:v 4 -an http://localhost:8160/feed.ffm,-log,false,-keepAlive,true
+2015-12-29T21:55:05.100Z - error: svcMgr:shellSvc-h264Streamer child process exited with code: 1
+2015-12-29T21:55:05.100Z - info: svcMgr:Retrying shellSvc-h264Streamer in 10 seconds.
+2015-12-29T21:55:15.258Z - info: svcMgr:Just forked child:shellSvc-h264Streamer with parameters:
+-name,shellSvc,-title,h264Streamer,-cmd,raspivid -t 999999 -fps 24 -w 320 -h 240 -b 800000 -o - | ffmpeg -f h264 -i - -codec:v libtheora -qscale:v 4 -an http://localhost:8160/feed.ffm,-log,false,-keepAlive,true
+2015-12-29T21:55:15.507Z - error: svcMgr:shellSvc-h264Streamer child process exited with code: 1
+2015-12-29T21:55:15.507Z - info: svcMgr:Retrying shellSvc-h264Streamer in 10 seconds.
+2015-12-29T21:55:25.634Z - info: svcMgr:Just forked child:shellSvc-h264Streamer with parameters:
+-name,shellSvc,-title,h264Streamer,-cmd,raspivid -t 999999 -fps 24 -w 320 -h 240 -b 800000 -o - | ffmpeg -f h264 -i - -codec:v libtheora -qscale:v 4 -an http://localhost:8160/feed.ffm,-log,false,-keepAlive,true
+2015-12-29T21:55:25.868Z - error: svcMgr:shellSvc-h264Streamer child process exited with code: 1
+2015-12-29T21:55:25.868Z - info: svcMgr:Retrying shellSvc-h264Streamer in 10 seconds.
+2015-12-29T21:55:36.008Z - info: svcMgr:Just forked child:shellSvc-h264Streamer with parameters:
+-name,shellSvc,-title,h264Streamer,-cmd,raspivid -t 999999 -fps 24 -w 320 -h 240 -b 800000 -o - | ffmpeg -f h264 -i - -codec:v libtheora -qscale:v 4 -an http://localhost:8160/feed.ffm,-log,false,-keepAlive,true
+2015-12-29T21:55:36.257Z - error: svcMgr:shellSvc-h264Streamer child process exited with code: 1
+2015-12-29T21:55:36.257Z - info: svcMgr:Retrying shellSvc-h264Streamer in 10 seconds.
+2015-12-29T21:55:46.400Z - info: svcMgr:Just forked child:shellSvc-h264Streamer with parameters:
+-name,shellSvc,-title,h264Streamer,-cmd,raspivid -t 999999 -fps 24 -w 320 -h 240 -b 800000 -o - | ffmpeg -f h264 -i - -codec:v libtheora -qscale:v 4 -an http://localhost:8160/feed.ffm,-log,false,-keepAlive,true
+2015-12-29T21:55:46.651Z - error: svcMgr:shellSvc-h264Streamer child process exited with code: 1
+2015-12-29T21:55:46.651Z - info: svcMgr:Retrying shellSvc-h264Streamer in 10 seconds.
+2015-12-29T21:55:56.788Z - info: svcMgr:Just forked child:shellSvc-h264Streamer with parameters:
+-name,shellSvc,-title,h264Streamer,-cmd,raspivid -t 999999 -fps 24 -w 320 -h 240 -b 800000 -o - | ffmpeg -f h264 -i - -codec:v libtheora -qscale:v 4 -an http://localhost:8160/feed.ffm,-log,false,-keepAlive,true
+2015-12-29T21:55:57.069Z - error: svcMgr:shellSvc-h264Streamer child process exited with code: 1
+2015-12-29T21:55:57.069Z - info: svcMgr:Retrying shellSvc-h264Streamer in 10 seconds.
+2015-12-29T21:56:07.191Z - info: svcMgr:Just forked child:shellSvc-h264Streamer with parameters:
+-name,shellSvc,-title,h264Streamer,-cmd,raspivid -t 999999 -fps 24 -w 320 -h 240 -b 800000 -o - | ffmpeg -f h264 -i - -codec:v libtheora -qscale:v 4 -an http://localhost:8160/feed.ffm,-log,false,-keepAlive,true
+2015-12-29T21:56:07.425Z - error: svcMgr:shellSvc-h264Streamer child process exited with code: 1
+2015-12-29T21:56:07.425Z - info: svcMgr:Retrying shellSvc-h264Streamer in 10 seconds.
+2015-12-29T21:56:17.565Z - info: svcMgr:Just forked child:shellSvc-h264Streamer with parameters:
+-name,shellSvc,-title,h264Streamer,-cmd,raspivid -t 999999 -fps 24 -w 320 -h 240 -b 800000 -o - | ffmpeg -f h264 -i - -codec:v libtheora -qscale:v 4 -an http://localhost:8160/feed.ffm,-log,false,-keepAlive,true
+2015-12-29T21:56:17.814Z - error: svcMgr:shellSvc-h264Streamer child process exited with code: 1
+2015-12-29T21:56:17.814Z - info: svcMgr:Retrying shellSvc-h264Streamer in 10 seconds.
+2015-12-29T21:56:27.957Z - info: svcMgr:Just forked child:shellSvc-h264Streamer with parameters:
+-name,shellSvc,-title,h264Streamer,-cmd,raspivid -t 999999 -fps 24 -w 320 -h 240 -b 800000 -o - | ffmpeg -f h264 -i - -codec:v libtheora -qscale:v 4 -an http://localhost:8160/feed.ffm,-log,false,-keepAlive,true
+2015-12-29T21:56:28.223Z - error: svcMgr:shellSvc-h264Streamer child process exited with code: 1
+2015-12-29T21:56:28.223Z - info: svcMgr:Retrying shellSvc-h264Streamer in 10 seconds.

@@ -1,6 +1,6 @@
 {
   "name": "nodesvc",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A platform independent node service that can spawn child processes.  All child process parameters can be configured in conf.json.",
   "main": "node lib/svcMgr.js",
   "scripts": {
@@ -19,13 +19,17 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zoroloco/nodesvc/issues"
+    "url": "https://github.com/zoroloco/nodesvc/issues",
+    "email": "kcenturion@yahoo.com"
   },
   "homepage": "https://github.com/zoroloco/nodesvc#readme",
   "dependencies": {
     "async": "^1.5.0",
     "chokidar": "^1.4.1",
     "winston": "^2.1.1"
+  },
+  "engines": {
+    "node": ">=0.12.7 <=4.2.4"
   },
   "readme": "# nodeSvc\n\nA platform independent node service that can spawn child processes.  All child process parameters can be configured in conf.json.\n\n",
   "readmeFilename": "README.md",

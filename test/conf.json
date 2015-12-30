@@ -7,14 +7,15 @@
 	 "keepAlive"   : false,
 	 "printerName" : "testprinter1",
 	 "deleteFiles" : true,
-	 "disabled"    : true,
+	 "disabled"    : false,
 	 "watchDir"    : "C:\\Users\\kcenturion\\Documents\\dev\\nodeSvc\\test"},
 	 
 	{"name"        : "shellSvc",
 	 "title"       : "h264Streamer",
 	 "cmd"         : "raspivid -t 999999 -fps 24 -w 320 -h 240 -b 800000 -o - | ffmpeg -f h264 -i - -codec:v libtheora -qscale:v 4 -an http://localhost:8160/feed.ffm",
-	 "log"         : "false",
-	 "keepAlive"   : false}
+	 "log"         : "true",
+	 "keepAlive"   : false,
+	 "disabled"    : false}
 	 
 	] 
 }

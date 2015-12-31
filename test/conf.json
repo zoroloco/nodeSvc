@@ -7,7 +7,7 @@
 	 "keepAlive"   : false,
 	 "printerName" : "testprinter1",
 	 "deleteFiles" : true,
-	 "disabled"    : false,
+	 "disabled"    : true,
 	 "watchDir"    : "C:\\Users\\kcenturion\\Documents\\dev\\nodeSvc\\test"},
 	 
 	{"name"        : "shellSvc",

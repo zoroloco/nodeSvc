@@ -4,6 +4,7 @@
     {"name"        : "printSvc",
 	 "title"       : "test1", 
 	 "log"         : true,
+     "logDir"      : "C:\\nodelogfiles",	 
 	 "keepAlive"   : false,
 	 "printerName" : "testprinter1",
 	 "deleteFiles" : true,
@@ -14,6 +15,7 @@
 	 "title"       : "h264Streamer",
 	 "cmd"         : "raspivid -t 999999 -fps 24 -w 320 -h 240 -b 800000 -o - | ffmpeg -f h264 -i - -codec:v libtheora -qscale:v 4 -an http://localhost:8160/feed.ffm",
 	 "log"         : "true",
+	 "logDir"      : "C:\\nodelogfiles",	 
 	 "keepAlive"   : false,
 	 "disabled"    : true}
 	 

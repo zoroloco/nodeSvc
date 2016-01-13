@@ -1,6 +1,6 @@
 {
   "name": "nodesvc",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A platform independent node service that can spawn child processes.  All child process parameters can be configured in conf.json.",
   "main": "node lib/svcMgr.js",
   "scripts": {

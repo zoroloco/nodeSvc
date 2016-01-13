@@ -24,9 +24,10 @@
 	 "log"         : "true",
 	 "logDir"      : "C:\\nodelogfiles",	 
 	 "keepAlive"   : false,
-	 "db_host"     : "localhost",
-	 "db_username" : "",
-	 "db_password" : ""} 
+	 "dbHost"      : "localhost",
+	 "dbUsername"  : "lionfart",
+	 "dbPassword"  : "",
+	 "dbName"      : "lionfart"} 
 	 
 	] 
 }

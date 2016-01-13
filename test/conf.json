@@ -8,7 +8,7 @@
 	 "keepAlive"   : false,
 	 "printerName" : "testprinter1",
 	 "deleteFiles" : true,
-	 "disabled"    : false,
+	 "disabled"    : true,
 	 "watchDir"    : "C:\\Users\\kcenturion\\Documents\\dev\\nodeSvc\\test"},
 	 
 	{"name"        : "shellSvc",
@@ -17,7 +17,16 @@
 	 "log"         : "true",
 	 "logDir"      : "C:\\nodelogfiles",	 
 	 "keepAlive"   : false,
-	 "disabled"    : true}
+	 "disabled"    : true},
+	 
+	{"name"        : "powerballSvc",
+	 "title"       : "powerballSvc",
+	 "log"         : "true",
+	 "logDir"      : "C:\\nodelogfiles",	 
+	 "keepAlive"   : false,
+	 "db_host"     : "localhost",
+	 "db_username" : "",
+	 "db_password" : ""} 
 	 
 	] 
 }

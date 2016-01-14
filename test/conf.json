@@ -32,7 +32,7 @@
 
      {"name"       : "arduinoReaderSvc",
 	  "title"      : "arduinoReaderSvc",
-	  "keepAlive"  : true,	  
+	  "keepAlive"  : true	  
 	 }	 
 	 
 	] 

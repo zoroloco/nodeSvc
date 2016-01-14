@@ -1,6 +1,6 @@
 {
   "name": "nodesvc",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A platform independent node service that can spawn child processes.  All child process parameters can be configured in conf.json.",
   "main": "node lib/svcMgr.js",
   "scripts": {
@@ -28,7 +28,8 @@
     "chokidar": "^1.4.1",
     "winston": "^2.1.1",
     "node-schedule": "0.6.0",
-    "mysql": "^2.10.2"
+    "mysql": "^2.10.2",
+    "johnny-five": "^0.9.18"
   },
   "engines": {
     "node": ">=0.12.7 <=4.2.4"

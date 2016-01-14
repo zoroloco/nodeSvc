@@ -27,7 +27,13 @@
 	 "dbHost"      : "localhost",
 	 "dbUsername"  : "lionfart",
 	 "dbPassword"  : "",
-	 "dbName"      : "lionfart"} 
+	 "dbName"      : "lionfart",
+	 "disabled"    : true},
+
+     {"name"       : "arduinoReaderSvc",
+	  "title"      : "arduinoReaderSvc",
+	  "keepAlive"  : true,	  
+	 }	 
 	 
 	] 
 }

@@ -30,8 +30,8 @@
 	 "dbName"      : "lionfart",
 	 "disabled"    : true},
 
-     {"name"       : "arduinoReaderSvc",
-	  "title"      : "arduinoReaderSvc",
+     {"name"       : "arduinoSvc",
+	  "title"      : "arduinoSvc",
 	  "keepAlive"  : true	  
 	 }	 
 	 

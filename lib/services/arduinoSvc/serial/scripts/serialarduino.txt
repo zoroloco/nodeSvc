@@ -4,7 +4,7 @@ import sys
 import thread
 import getopt
 
-from sys import stdin
+from serial import serial
 
 device = '' # /dev/ttyACM0
 baud   = '' #9600
@@ -18,20 +18,19 @@ except getopt.GetoptError:
 for opt, arg in opts:
     if opt in ('--device','d'):
         device = arg
-        print "Setting device as ",device
     if opt in ('--baud','b'):
         baud = arg
-        print "Setting baud as ",baud
 
-print "Opening serial port on device: ",device, "with baud rate of ",baud
+if not baud or not device:
+    sys.stderr.write("Device and Baud rate are required.")
+	sys.exit(2)
 
 arduino = serial.Serial(device,baud,timeout=30)
 
 #start threads
 try:
     serialInThread = serialIn(1, "SerialIn", arduino)
-	
-	serialInThread.start()
+    serialInThread.start()
     
 except:
     sys.stderr.write("Error. Unable to start threads.")
